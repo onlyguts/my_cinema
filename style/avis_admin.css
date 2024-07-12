@@ -1,0 +1,16 @@
+.navBack h1 {
+    padding: 1em;
+    color: white;
+    text-align: center;
+ 
+}
+
+table {
+    margin: 1em auto;
+    background-color: black;
+}
+
+table th, table td {
+    background-color: white;
+  padding: 1em;
+}

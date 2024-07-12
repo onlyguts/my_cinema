@@ -1,0 +1,91 @@
+.movie_seancediv {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    max-height: 150px;
+}
+
+.movie_seancediv div {
+    margin: 0.5em;
+    padding: 0.3em;
+    border: solid 1px black;
+    border-radius: 1em;
+    text-align: center;
+    align-items: center;
+    background-color: azure;
+}
+
+.room_seancediv {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.room_seancediv div {
+    margin: 0.5em;
+    padding: 0.3em;
+    border: solid 1px black;
+    border-radius: 1em;
+    text-align: center;
+    align-items: center;
+    background-color: azure;
+}
+
+.search_name {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+}
+
+.search_name #btn-search {
+    padding: 0.50em;
+    border: solid rgba(0, 0, 0, 0.226);
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0.5em;
+}
+
+.search_name #btn-search:hover {
+    background-color: greenyellow;
+}
+
+.search_name #search {
+    width: 25em;
+    height: 2.8em;
+}
+
+
+ 
+.warning {
+    width: 50%;
+    background-color: rgb(138, 255, 158);
+    border: 2px solid black;
+    border-radius: 50px;
+    margin: 1em auto;
+    padding: 2em 1em;
+
+}
+
+.warning2 {
+    width: 50%;
+    background-color: rgb(255, 179, 0);
+    border: 2px solid black;
+    border-radius: 50px;
+    margin: 1em auto;
+    padding: 2em 1em;
+}
+
+.warning p , .warning2 p {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin: auto;
+}
+
+.warning-bar img {
+    width: 10%;
+}
+
+.warning-bar {
+    display: flex;
+    flex-direction: row;
+}

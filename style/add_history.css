@@ -1,0 +1,35 @@
+.listhistory table  {
+    background-color: black;
+    border: solid;
+}
+
+.listhistory table tr {
+    background-color: white;
+    border: solid;
+}
+
+.listhistory table tr td,.listhistory table tr th {
+ padding: 0.5em;
+}
+
+.listhistory {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.searchNav {
+    display: flex;
+    justify-content: center;
+}
+
+.searchNav input {
+  padding: 0.5em 1em;
+  margin: 0.5em;
+  border-radius: 10px;
+}
+
+.searchNav input:hover {
+background-color: orange;
+cursor: pointer;
+  }

@@ -1,0 +1,137 @@
+.wrapper table {
+    margin: auto;
+    width: 60%;
+}
+
+
+.pageMain {
+    padding: 5em;
+}
+
+.search_name {
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+
+.search_name #btn-search {
+    padding: 0.25em;
+    border: solid rgba(0, 0, 0, 0.226);
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0.2em;
+}
+
+.search_name #btn-search:hover {
+    background-color: greenyellow;
+}
+
+.search_name #title {
+    width: 25em;
+    height: 2.5em;
+}
+
+.searchCount {
+    padding-bottom: 2em;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+
+}
+
+table,
+td {
+    width: 50em;
+}
+
+td {
+    background-color: white;
+    font-size: 1.3em;
+}
+
+td a {
+    color: black;
+    text-decoration: none;
+}
+
+th {
+    background-color: white;
+    text-align: center;
+    padding: 1em 0;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.id_user {
+    text-align: center;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+
+.modifier,
+.supprimer {
+    text-align: center;
+    cursor: pointer;
+}
+
+.modifier {
+    background-color: rgb(216, 216, 0);
+}
+
+.supprimer {
+    background-color: rgb(216, 0, 0);
+}
+
+.user_information {
+    display: flex;
+    flex-direction: column;
+}
+
+.user_information input,
+.user_information label {
+    margin: 0.2em 1em;
+}
+
+.h1-center {
+    text-align: center;
+}
+
+.main_userlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main_userlist div {
+    background-color: grey;
+    border: solid;
+    margin: 1em;
+    padding: 1em;
+}
+
+.nombreElement {
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+}
+
+
+#element-select {
+    padding: 0.5em;
+}
+
+#sumbit {
+    padding: 0.5em;
+}

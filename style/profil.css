@@ -1,0 +1,59 @@
+
+.update, .password {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.update form, .password form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.update form input, .password form input {
+    padding: 0.3em 0.3em;
+}
+
+.update form label, .password form label {
+ text-transform: uppercase;
+ font-weight: bold;
+ padding: 0.5em 0;
+}
+
+
+
+
+.card-profil {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    margin: 2em auto;
+    padding: 3em;
+    width: 30%;
+    border: solid 3px black;
+    border-radius: 5px;
+}
+
+#submit {
+    margin: 0.5em auto;
+    width: 50%;
+}
+
+#submit:hover {
+  cursor: pointer;
+  background-color: orange;
+}
+
+.history {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.history td, .history th {
+    padding: 0.2em 1em;
+}
+
+.update h3 {
+    text-transform: uppercase;
+    padding: 0.2em 0;
+}

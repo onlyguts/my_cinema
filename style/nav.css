@@ -1,0 +1,77 @@
+
+nav {
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    
+}
+
+nav ul{
+    list-style-type: none;
+    
+}
+
+nav ul li{
+    position: relative;
+}
+
+
+nav ul::after{
+    content: "";
+    display: table;
+    
+    clear: both;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    left: 0px;  
+}
+
+nav a:hover{
+    color: rgba(230,105,85,255);
+    
+}
+
+.sous{
+    display: none;
+    position: absolute;
+    width: 100%;
+    
+}
+
+nav > ul li:hover .sous{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sous ul { 
+    display: flex;
+    
+}
+
+.sous li{
+    position: relative;
+    left: 0px;
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous a{
+    margin-top: 1em;
+    padding: 0.5em 0;
+    border-bottom: none;
+    font-size: 15px;
+}
+
+.deroulant {
+    position: relative;
+    
+}
+
+.deroulant > a::after{
+    color: white;
+    content:" ▼";   
+}

@@ -1,0 +1,43 @@
+.stats {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    margin: 2em;
+
+}
+
+.navBack h1, .navBack h2 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.navBack h1 {
+    font-size: 3em;
+}
+
+.navBack h2 {
+    font-size: 1.5em;
+}
+
+.stats table {
+    background-color: black;
+}
+
+.stats table th {
+  padding: 0.3em 2em;
+
+}
+
+.title_admin {
+    padding: 3em;
+}
+
+.stats table td {
+   text-align: center;
+   padding: 2em;
+   font-size: 1.5em;
+   color: grey;
+  }
+  

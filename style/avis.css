@@ -1,0 +1,68 @@
+.avisMain { 
+   display: flex;
+   flex-direction: column;
+   padding: 2em;
+   
+}
+
+.avis { 
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border: solid;
+    width: 30%;
+    margin: 1em auto;
+ }
+
+ 
+.avis ul { 
+    list-style: none;
+    padding: 1em;
+ }
+
+ .avis p { 
+   font-size: 12px;
+   color: grey;
+ }
+ .avis ul li { 
+    padding: 0.2em;
+ }
+
+ form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 1em auto;
+ }
+
+ 
+.warning {
+    width: 50%;
+    background-color: rgb(138, 255, 158);
+    border: 2px solid black;
+    border-radius: 50px;
+    margin: 1em auto;
+    padding: 2em 1em;
+
+}
+
+.warning p {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin: auto;
+}
+
+.warning-bar img {
+    width: 10%;
+}
+
+.warning-bar {
+    display: flex;
+    flex-direction: row;
+}
+
+.navBack h1 {
+    color: white;
+    text-align: center;
+    padding: 1em;
+}

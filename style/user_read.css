@@ -1,0 +1,74 @@
+.backImg {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1em;
+}
+
+.backImg img {
+ width: 5em;
+ height: 100%;
+}
+
+.h1-center {
+    text-align: center;
+}
+
+.main_userlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main_userlist .userListBlock {
+    background-color: rgb(199, 192, 192);
+    border: solid;
+    margin: 1em;
+    padding: 1em;
+}
+
+.main_userlist .userListBlock2 {
+    background-color: rgb(199, 192, 192);
+    border: solid;
+    margin: 1em;
+    padding: 1em;
+}
+
+
+.user_information {
+    display: flex;
+    flex-direction: column;
+}
+
+.user_information input, .user_information label {
+    margin: 0.2em 1em;
+}
+
+.scroll_history table {
+    background-color: white;
+    border-bottom: black solid 1px;
+    text-decoration: none;
+    list-style: none;
+    padding: 0.2em;
+}
+
+.scroll_history {
+    overflow-y: scroll;
+    max-height: 20em;
+    border: solid;
+}
+
+#btn-add { 
+    padding: 0.5em;
+    text-decoration: none;
+    color: black;
+}
+
+#btn-add:hover { 
+    color: greenyellow;
+}
+
+.navBack h1 {
+    color: white;
+    text-align: center;
+    padding: 3em;
+}
