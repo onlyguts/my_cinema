@@ -8,7 +8,7 @@ My Cinema
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/onlyguts/CS2-Discord-Bot-K4.git
+   git clone https://github.com/onlyguts/my_cinema.git
    ```
 
 2. **Configure Settings**:
