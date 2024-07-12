@@ -15,7 +15,7 @@ My Cinema
     Configurez votre `./mysql.php` avec votre base de données.
 
 3. **Configurer la base de données**:
-   Allez dans `./sql/save.php` et insérez le .sql dans votre base de données.
+   Allez dans `./sql/save.sql` et insérez le .sql dans votre base de données.
 
 4. **Fini**:
     Enjoy
