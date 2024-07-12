@@ -31,3 +31,6 @@ My Cinema
 - Ajouter une séance pour un film
 - Programmer des films en salle
 
+## 📸 Images du projet : 
+
+![mycineprojet](https://github.com/user-attachments/assets/315d380d-f498-422c-b3d1-4cd860a086d7)
