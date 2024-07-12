@@ -1,8 +1,7 @@
 My Cinema
 
 ## 📦 Dépendances
-- [MySQL](https://www.mysql.com/en/)
-- [MAMP](https://www.mamp.info/en/downloads/) ou autres !
+- [MAMP](https://www.mamp.info/en/downloads/) (ou autres)
 
 ## 🚀 Commencer l'installation du projet
 
