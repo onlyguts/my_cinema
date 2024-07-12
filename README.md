@@ -6,30 +6,28 @@ My Cinema
 
 ## 🚀 Commencer l'installation du projet
 
-1. **Clone the Repository**:
+1. **Clone le Repo**:
    ```bash
    git clone https://github.com/onlyguts/my_cinema.git
    ```
 
-2. **Configure Settings**:
-   Set up your `config.js` with your Discord bot token and database.
+2. **Configurer les paramètres**:
+    Configurez votre `./mysql.php` avec votre base de données.
 
-3. **Start the Bot**:
-   ```bash
-   node index.js
-   ```
+3. **Fini**:
+    Enjoy
+   
 ## ✨ Features 
 
-- **Real-time Stats**: Access your gaming statistics directly on Discord. View your ranks, points, and more.
-- **Dynamic Leaderboard**: Our leaderboard updates every 30 minutes and posts in a dedicated channel before updating to reflect the latest standings. Keep an eye on the top players and see where you stand among them.
-- **Cheat Detection**: Use our advanced commands to identify suspicious player.
-- **Admin Tools**: Specific commands are available for admins, allowing them to quickly get a player's statistics or Steam ID.
+**Pour les utilisateurs :**
+- Rechercher des films par genre et/ou distributeur, en plus du nom du film
+- Afficher son historique
+- Rechercher un film par date de projection
 
-## 🗂️ Contributions 
+**Pour les administrateur du site :**
+- Rechercher un membre par son nom et/ou prénom
+- Ajouter, supprimer, modifier l'abonnement d'un client
+- Ajouter une entrée à cet historique (film vu par le membre aujourd'hui)
+- Ajouter une séance pour un film
+- Programmer des films en salle
 
-Contributions to CS2-Discord-Bot-K4 are highly encouraged, whether through feature development, bug fixes, or feedback.
- 
-## 🤝 Credits
-
-- [K4ryuu](https://github.com/K4ryuu)
-  
