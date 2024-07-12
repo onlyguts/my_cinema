@@ -14,7 +14,10 @@ My Cinema
 2. **Configurer les paramètres**:
     Configurez votre `./mysql.php` avec votre base de données.
 
-3. **Fini**:
+3. **Configurer les paramètres**:
+   Allez dans `./sql/save.php` et insérez le .sql dans votre base de données.
+
+4. **Fini**:
     Enjoy
    
 ## ✨ Features 
